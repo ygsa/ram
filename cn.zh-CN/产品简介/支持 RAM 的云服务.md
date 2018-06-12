@@ -23,99 +23,106 @@
 
 |服务名|控制台|API|授权粒度|系统策略|相关文档|
 |:--|:--|:--|:---|:---|:---|
-|云服务器 ECS|√|√|资源级别|AliyunECSFullAccessAliyunECSReadOnlyAccess|[鉴权规则](../../cn.zh-CN/API参考/授权 RAM 用户/鉴权规则.md)|
-|负载均衡 SLB|√|√|资源级别|AliyunSLBFullAccessAliyunSLBReadOnlyAccess|[RAM鉴权](../../cn.zh-CN/API参考/RAM鉴权.md)|
-|弹性伸缩 AutoScaling|√|√|服务级别|AliyunESSFullAccessAliyunESSReadOnlyAccess|[弹性伸缩 API 使用须知](https://help.aliyun.com/document_detail/25925.html)|
-|容器服务|√|√|服务级别|-|[容器服务 访问控制](https://help.aliyun.com/document_detail/63578.html)|
-|资源编排 ROS|√|√|服务级别|-|[资源编排 使用 RAM](https://help.aliyun.com/document_detail/48754.html)|
+|云服务器 ECS|√|√|资源级别|AliyunECSFullAccessAliyunECSReadOnlyAccess|[ECS鉴权规则](../../cn.zh-CN/API参考/授权 RAM 用户/鉴权规则.md)|
+|负载均衡 SLB|√|√|资源级别|AliyunSLBFullAccessAliyunSLBReadOnlyAccess|[SLB鉴权规则](../../cn.zh-CN/API参考/RAM鉴权.md)|
+|弹性伸缩 AutoScaling|√|√|服务级别|AliyunESSFullAccessAliyunESSReadOnlyAccess|[弹性伸缩API使用须知](https://help.aliyun.com/document_detail/25925.html)|
+|容器服务|√|√|服务级别|-|[使用子账号](https://help.aliyun.com/document_detail/63578.html)|
+|资源编排 ROS|√|√|服务级别|-|[使用RAM控制资源访问](https://help.aliyun.com/document_detail/48754.html)|
 |批量计算 BatchCompute|√|√|服务级别|AliyunBatchComputeFullAccess|-|
 
 ## 云数据库 {#section_ep3_h52_xdb .section}
 
 |服务名|控制台|API|授权粒度|系统策略|相关文档|
 |:--|:--|:--|:---|:---|:---|
-|云数据库 RDS 版|√|√|资源级别|AliyunRDSFullAccessAliyunRDSReadOnlyAccess|[RDS 鉴权规则](https://help.aliyun.com/document_detail/26307.html)|
-|云数据库 MongoDB 版|√|√|资源级别|AliyunMongoDBFullAccessAliyunMongoDBReadOnlyAccess|[MongoDB 鉴权规则](https://help.aliyun.com/document_detail/61757.html)|
-|云数据库 Redis 版|√|√|资源级别|AliyunKvstoreFullAccessAliyunKvstoreReadOnlyAccess|[Redis 鉴权规则](https://help.aliyun.com/document_detail/61122.html)|
+|云数据库 RDS 版|√|√|资源级别|AliyunRDSFullAccessAliyunRDSReadOnlyAccess|[RDS鉴权规则](https://help.aliyun.com/document_detail/26307.html)|
+|云数据库 MongoDB 版|√|√|资源级别|AliyunMongoDBFullAccessAliyunMongoDBReadOnlyAccess|[MongoDB鉴权规则](https://help.aliyun.com/document_detail/61757.html)|
+|云数据库 Redis 版|√|√|资源级别|AliyunKvstoreFullAccessAliyunKvstoreReadOnlyAccess|[Redis鉴权规则](https://help.aliyun.com/document_detail/61122.html)|
 |云数据库 Memcache 版|√|√|服务级别|AliyunOCSFullAccessAliyunOCSReadOnlyAccess|-|
 |云数据库 HybirdDB for MySQL|√|√|资源级别|AliyunPetaDataFullAccessAliyunPetaDataReadOnlyAccess|-|
 |云数据库 Hbase 版|√|√|资源级别|-|-|
-|数据传输服务 DTS|√|√|服务级别|AliyunDTSFullAccessAliyunDTSReadOnlyAccess|[DTS 授权及使用子账号](https://help.aliyun.com/document_detail/52589.html)|
+|数据传输服务 DTS|√|√|服务级别|AliyunDTSFullAccessAliyunDTSReadOnlyAccess|[DTS授权和子账号管理DTS实例](https://help.aliyun.com/document_detail/52589.html)|
 
 ## 存储与 CDN {#section_ihm_352_xdb .section}
 
 |服务名|控制台|API|授权粒度|系统策略|相关文档|
 |:--|:--|:--|:---|:---|:---|
-|对象存储 OSS|√|√|资源级别|AliyunOSSFullAccessAliyunOSSReadOnlyAccess|[OSS 权限控制](https://help.aliyun.com/document_detail/56283.html)[OSS 授权策略配置](https://help.aliyun.com/document_detail/56288.html)[OSS 权限管理最佳实践](https://help.aliyun.com/document_detail/31929.html)[授权策略在线配置工具](http://gosspublic.alicdn.com/ram-policy-editor/index.html%20%E6%8E%88%E6%9D%83%E7%AD%96%E7%95%A5%E5%9C%A8%E7%BA%BF%E9%85%8D%E7%BD%AE%E5%B7%A5%E5%85%B7)|
-|文件存储 NAS|√|○|服务级别|AliyunNASFullAccessAliyunNASReadOnlyAccess|[文件存储 使用 RAM 授权](https://help.aliyun.com/document_detail/27534.html)|
-|表格存储|√|√|资源级别|AliyunOTSFullAccessAliyunOTSReadOnlyAccessAliyunOTSWriteOnlyAccess|[表格存储 自定义权限](https://help.aliyun.com/document_detail/27362.html)|
-|CDN|√|√|资源级别|AliyunCDNFullAccessAliyunCDNReadOnlyAccess|[CDN 鉴权规则](https://help.aliyun.com/document_detail/27154.html)|
+|对象存储 OSS|√|√|资源级别|AliyunOSSFullAccessAliyunOSSReadOnlyAccess| -   [OSS权限控制](https://help.aliyun.com/document_detail/56283.html)
+-   [OSS授权策略配置](https://help.aliyun.com/document_detail/56288.html)
+-   [OSS权限管理最佳实践](https://help.aliyun.com/document_detail/31929.html)
+
+ |
+|文件存储 NAS|√|○|服务级别|AliyunNASFullAccessAliyunNASReadOnlyAccess|[使用权限组进行访问控制](https://help.aliyun.com/document_detail/27534.html)|
+|表格存储|√|√|资源级别|AliyunOTSFullAccessAliyunOTSReadOnlyAccessAliyunOTSWriteOnlyAccess|[自定义权限](https://help.aliyun.com/document_detail/27362.html)|
+|CDN|√|√|资源级别|AliyunCDNFullAccessAliyunCDNReadOnlyAccess|[CDN鉴权规则](https://help.aliyun.com/document_detail/27154.html)|
 
 ## 网络 {#section_az3_j52_xdb .section}
 
 |服务名|控制台|API|授权粒度|系统策略|相关文档|
 |:--|:--|:--|:---|:---|:---|
-|专有网络 VPC|√|√|资源级别|AliyunVPCFullAccessAliyunVPCReadOnlyAccess|[VPC 鉴权规则](https://help.aliyun.com/document_detail/27777.html)|
-|弹性公网 IP|√|√|资源级别|AliyunEIPFullAccessAliyunEIPReadOnlyAccess|[弹性公网 IP 鉴权规则](https://help.aliyun.com/document_detail/27777.html)|
-|高速通道 ExpressConnect|√|√|资源级别|AliyunExpressConnectFullAccessAliyunExpressConnectReadOnlyAccess|[高速通道 鉴权规则](https://help.aliyun.com/document_detail/31813.html)|
+|专有网络 VPC|√|√|资源级别|AliyunVPCFullAccessAliyunVPCReadOnlyAccess|[VPC鉴权规则](https://help.aliyun.com/document_detail/27777.html)|
+|弹性公网 IP|√|√|资源级别|AliyunEIPFullAccessAliyunEIPReadOnlyAccess|[弹性公网IP鉴权规则](https://help.aliyun.com/document_detail/27777.html)|
+|高速通道 ExpressConnect|√|√|资源级别|AliyunExpressConnectFullAccessAliyunExpressConnectReadOnlyAccess|[高速通道鉴权规则](https://help.aliyun.com/document_detail/31813.html)|
 
 ## 分析 {#section_psg_k52_xdb .section}
 
 |服务名|控制台|API|授权粒度|系统策略|相关文档|
 |---|---|---|----|----|----|
-|E-MapReduce|√|√|服务级别|AliyunEMRFullAccess|[E-MapReduce 角色授权](https://help.aliyun.com/document_detail/28072.html)|
+|E-MapReduce|√|√|服务级别|AliyunEMRFullAccess|[E-MapReduce角色授权](https://help.aliyun.com/document_detail/28072.html)|
 |开放搜索|√|√|服务级别|AliyunOpenSearchFullAccessAliyunOpenSearchReadOnlyAccess|[开放搜索 鉴权规则](https://help.aliyun.com/document_detail/53744.html)|
 
 ## 云通信 {#section_xlt_l52_xdb .section}
 
 |服务名|控制台|API|授权粒度|系统策略|相关文档|
 |:--|:--|:--|:---|:---|:---|
-|消息服务|√|√|资源级别|AliyunMNSFullAccessAliyunMNSReadOnlyAccess|[消息服务 鉴权规则](https://help.aliyun.com/document_detail/27448.html)|
+|消息服务|√|√|资源级别|AliyunMNSFullAccessAliyunMNSReadOnlyAccess|[消息服务鉴权规则](https://help.aliyun.com/document_detail/27448.html)|
 |移动推送|√|√|服务级别|AliyunMPushFullAccessAliyunMPushReadOnlyAccess|-|
 |邮件推送|√|√|服务级别|AliyunDirectMailFullAccessAliyunDirectMailReadOnlyAccess|-|
-|语言服务|√|√|服务级别|AliyunDyvmsFullAccessAliyunDyvmsReadOnlyAccess|[语音服务 权限访问控制](https://help.aliyun.com/document_detail/55766.html)|
-|流量服务|√|√|服务级别|AliyunDycdpFullAccessAliyunDycdpReadOnlyAccess|[流量服务 权限访问控制](https://help.aliyun.com/document_detail/55767.html)|
-|短信服务|√|√|服务级别|AliyunSMSFullAccessAliyunSMSReadOnlyAccess|[短信服务 权限访问控制](https://help.aliyun.com/document_detail/55764.html)|
+|语音服务|√|√|服务级别|AliyunDyvmsFullAccessAliyunDyvmsReadOnlyAccess|[语音权限访问控制](https://help.aliyun.com/document_detail/55766.html)|
+|流量服务|√|√|服务级别|AliyunDycdpFullAccessAliyunDycdpReadOnlyAccess|[流量权限访问控制](https://help.aliyun.com/document_detail/55767.html)|
+|短信服务|√|√|服务级别|AliyunSMSFullAccessAliyunSMSReadOnlyAccess|[短信权限访问控制](https://help.aliyun.com/document_detail/55764.html)|
 
 ## 监控与管理 {#section_ypn_m52_xdb .section}
 
 |服务名|控制台|API|授权粒度|系统策略|相关文档|
 |:--|:--|:--|:---|:---|:---|
-|云监控|√|√|服务级别|AliyunCloudMonitorFullAccessAliyunCloudMonitorReadOnlyAccess|[云监控 访问控制](https://help.aliyun.com/document_detail/43170.html)|
-|访问控制|√|√|资源级别|AliyunRAMFullAccessAliyunRAMReadOnlyAccessAliyunSTSAssumeRoleAccess|[RAM API 参考](https://help.aliyun.com/document_detail/28672.html)|
-|操作审计|√|√|资源级别|AliyunActionTrailFullAccessAliyunActionTrailReadOnlyAccess|[操作审计 RAM 支持的操作和资源](https://help.aliyun.com/document_detail/28817.html)|
-|密钥管理|√|√|资源级别|-|[KMS 鉴权规则](https://help.aliyun.com/document_detail/28953.html)|
+|云监控|√|√|服务级别|AliyunCloudMonitorFullAccessAliyunCloudMonitorReadOnlyAccess|[云监控访问控制](https://help.aliyun.com/document_detail/43170.html)|
+|访问控制|√|√|资源级别|AliyunRAMFullAccessAliyunRAMReadOnlyAccessAliyunSTSAssumeRoleAccess|[RAM API参考](https://help.aliyun.com/document_detail/28672.html)|
+|操作审计|√|√|资源级别|AliyunActionTrailFullAccessAliyunActionTrailReadOnlyAccess|[RAM支持的ActionTrail操作和资源](https://help.aliyun.com/document_detail/28817.html)|
+|密钥管理|√|√|资源级别|-|[KMS鉴权规则](https://help.aliyun.com/document_detail/28953.html)|
 
 ## 应用服务 {#section_mfn_n52_xdb .section}
 
 |服务名|控制台|API|授权粒度|系统策略|相关文档|
 |:--|:--|:--|:---|:---|:---|
-|日志服务|√|√|资源级别|AliyunLogFullAccessAliyunLogReadOnlyAccess|[日志服务 RAM 子用户使用](https://help.aliyun.com/document_detail/47664.html)[日志服务 鉴权规则](https://help.aliyun.com/document_detail/29052.html)|
-|性能测试服务|√|√|服务级别|AliyunPTSFullAccess|[性能测试 RAM](https://help.aliyun.com/document_detail/29315.html)|
+|日志服务|√|√|资源级别|AliyunLogFullAccessAliyunLogReadOnlyAccess| -   [RAM用户](https://help.aliyun.com/document_detail/47664.html)
+-   [日志服务 鉴权规则](https://help.aliyun.com/document_detail/29052.html)
+
+ |
+|性能测试服务|√|√|服务级别|AliyunPTSFullAccess|[性能测试RAM](https://help.aliyun.com/document_detail/29315.html)|
 |API 网关|√|√|服务级别|AliyunApiGatewayFullAccessAliyunApiGatewayReadOnlyAccess|-|
-|物联网套件|√|√|资源级别|AliyunIOTFullAccessAliyunIOTReadOnlyAccess|[物联网套件 鉴权规则](https://help.aliyun.com/document_detail/47495.html)|
+|物联网套件|√|√|资源级别|AliyunIOTFullAccessAliyunIOTReadOnlyAccess|[物联网套件鉴权规则](https://help.aliyun.com/document_detail/47495.html)|
 |智能对话分析服务|√|√|资源级别|-|-|
 
 ## 互联网中间件 {#section_wck_452_xdb .section}
 
 |服务名|控制台|API|授权粒度|系统策略|相关文档|
 |:--|:--|:--|:---|:---|:---|
-|企业级分布式应用服务 EDAS|√|×|服务级别|AliyunEDASFullAccess|[EDAS 子账号管理](https://help.aliyun.com/document_detail/44023.html)|
-|分布式关系型数据库服务 DRDS|√|×|资源级别|AliyunDRDSFullAccessAliyunDRDSReadOnlyAccess|[DRDS 支持的资源授权](https://help.aliyun.com/document_detail/51480.html)|
+|企业级分布式应用服务 EDAS|√|×|服务级别|AliyunEDASFullAccess|[子账号管理](https://help.aliyun.com/document_detail/44023.html)|
+|分布式关系型数据库服务 DRDS|√|×|资源级别|AliyunDRDSFullAccessAliyunDRDSReadOnlyAccess|[DRDS支持的资源授权](https://help.aliyun.com/document_detail/51480.html)|
 |业务实时监控服务 ARMS|√|×|服务级别|AliyunARMSFullAccess|-|
 
 ## 移动服务 {#section_qqf_p52_xdb .section}
 
 |服务名|控制台|API|授权粒度|系统策略|相关文档|
 |:--|:--|:--|:---|:---|:---|
-|移动用户反馈|√|√|服务级别|AliyunFeedbackFullAccessAliyunFeedbackReadOnlyAccess|[移动用户反馈 鉴权规则](https://help.aliyun.com/document_detail/53906.html)|
-|移动热修复|√|√|服务级别|AliyunHotfixFullAccessAliyunHotfixReadOnlyAccess|[移动热修复 鉴权规则](https://help.aliyun.com/document_detail/55889.html)|
+|移动用户反馈|√|√|服务级别|AliyunFeedbackFullAccessAliyunFeedbackReadOnlyAccess|[移动用户反馈鉴权规则](https://help.aliyun.com/document_detail/55906.html?spm=a2c4g.11186623.6.550.yApBCI)|
+|移动热修复|√|√|服务级别|AliyunHotfixFullAccessAliyunHotfixReadOnlyAccess|[移动热修复鉴权规则](https://help.aliyun.com/document_detail/55889.html)|
 
 ## 视频服务 {#section_slb_q52_xdb .section}
 
 |服务名|控制台|API|授权粒度|系统策略|相关文档|
 |:--|:--|:--|:---|:---|:---|
-|媒体转码|√|√|服务级别|AliyunMTSFullAccessAliyunMTSPlayerAuth|[媒体转码 子账号使用控制台说明](https://help.aliyun.com/document_detail/42841.html)|
+|媒体转码|√|√|服务级别|AliyunMTSFullAccessAliyunMTSPlayerAuth|[子账号使用控制台说明](https://help.aliyun.com/document_detail/42841.html)|
 |视频点播|√|√|服务级别|AliyunMTSFullAccess|-|
 |视频直播|√|√|服务级别|AliyunMTSFullAccess|-|
 
@@ -123,14 +130,14 @@
 
 |服务名|控制台|API|授权粒度|系统策略|相关文档|
 |:--|:--|:--|:---|:---|:---|
-|大数据开发套件|√|√|服务级别|-|[大数据开发套件 子账号登录](https://help.aliyun.com/document_detail/55316.html)|
+|大数据开发套件|√|√|服务级别|-|[用户使用子账号](https://help.aliyun.com/document_detail/55316.html)|
 |Quick BI|√|√|服务级别|-|-|
 |机器学习|√|√|服务级别|-|-|
 |推荐引擎|√|√|服务级别|-|-|
 |公众趋势分析|√|√|服务级别|-|-|
 |DataV 数据可视化|√|√|服务级别|-|-|
 |智能语音交互|√|√|服务级别|AliyunSCAFullAccessAliyunSCAReadOnlyAccess|-|
-|流计算|√|√|服务级别|-|[流计算 角色授权](https://help.aliyun.com/document_detail/49946.html)|
+|流计算|√|√|服务级别|-|[流计算角色授权](https://help.aliyun.com/document_detail/62460.html?spm=a2c4g.11186623.6.568.PHcqK9)|
 |画像分析|√|√|服务级别|-|-|
 |企业图谱|√|√|服务级别|-|-|
 
