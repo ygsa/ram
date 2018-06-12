@@ -1,6 +1,6 @@
 # RAM 初始设置 {#concept_sj1_r1f_xdb .concept}
 
-在 RAM 控制台中您可以设置您的[企业别名](#section_jfs_t1f_xdb)、 [RAM 用户的登录密码强度](#section_nfs_t1f_xdb)、您的 [RAM 用户安全设置](#section_rfs_t1f_xdb)。
+在 RAM 控制台中您可以设置您的[企业别名](#section_jfs_t1f_xdb)、 [RAM 用户的登录密码强度](#section_nfs_t1f_xdb)以及[RAM 用户安全策略](#section_rfs_t1f_xdb)。
 
 ## 设置您的企业别名 {#section_jfs_t1f_xdb .section}
 
@@ -35,7 +35,7 @@
 
 至此，您已完成 RAM 用户登录密码强度的设置。
 
-## 设置 RAM 用户安全设置 {#section_rfs_t1f_xdb .section}
+## 设置 RAM 用户安全策略 {#section_rfs_t1f_xdb .section}
 
 在 RAM 中，您可以指定 RAM 用户必须设置多因素认证\(MFA\)。一旦设置 MFA，您还可以统一指定是否允许登录时在其登录设备上保存 MFA 登录状态\(保存7天\)。此外，您可以进一步指定是否允许子用户自主管理密码、AccessKey及多因素认证设备。
 
@@ -47,7 +47,7 @@
 
     ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/12339/3515_zh-CN.png "子用户安全设置")
 
-4.  完成配置后，点击**保存修改**。
+4.  完成设置后，点击**保存修改**。
 
 至此， 您已完成 RAM 用户安全设置。
 
