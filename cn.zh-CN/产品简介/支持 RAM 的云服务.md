@@ -23,7 +23,7 @@
 
 |服务名|控制台|API|授权粒度|系统策略|相关文档|
 |:--|:--|:--|:---|:---|:---|
-|云服务器 ECS|√|√|资源级别|AliyunECSFullAccessAliyunECSReadOnlyAccess[鉴权规则](../../cn.zh-CN/API参考/授权 RAM 用户/鉴权规则.md)| |
+|云服务器 ECS|√|√|资源级别|AliyunECSFullAccessAliyunECSReadOnlyAccess|[鉴权规则](../../cn.zh-CN/API参考/授权 RAM 用户/鉴权规则.md)|
 |负载均衡 SLB|√|√|资源级别|AliyunSLBFullAccessAliyunSLBReadOnlyAccess|[RAM鉴权](../../cn.zh-CN/API参考/RAM鉴权.md)|
 |弹性伸缩 AutoScaling|√|√|服务级别|AliyunESSFullAccessAliyunESSReadOnlyAccess|[弹性伸缩 API 使用须知](https://help.aliyun.com/document_detail/25925.html)|
 |容器服务|√|√|服务级别|-|[容器服务 访问控制](https://help.aliyun.com/document_detail/63578.html)|
