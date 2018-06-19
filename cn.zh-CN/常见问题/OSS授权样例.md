@@ -33,7 +33,7 @@
     }
     ```
 
--   se Case \#2
+-   Use Case \#2
 
     如下的授权策略允许一个RAM用户通过OSS SDK对某个指定的OSS存储Bucket（比如myphotos）进行READ操作，但要求的限制条件为：请求者的SourceIP必须来自于”42.120.88.18” 或 “42.120.66.0/24”。
 
