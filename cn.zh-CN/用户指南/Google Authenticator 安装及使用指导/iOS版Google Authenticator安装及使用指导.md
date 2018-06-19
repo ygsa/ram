@@ -6,7 +6,7 @@
 
 　　
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/12368/3635_zh-CN.png "安装二维码")
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/12368/3635_zh-CN.png "扫描二维码")
 
 ## 配置 {#section_xl2_thk_xdb .section}
 
@@ -20,9 +20,9 @@
 
 ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/12368/3636_zh-CN.png "扫描条形码")
 
-扫描成功后，您可以看到如下界面，包括您的帐号名和MFA密钥
+扫描成功后，您可以看到如下界面，包括您的帐户名和MFA密钥
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/12368/3638_zh-CN.png "身份验证")
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/12368/3638_zh-CN.png "验证身份")
 
 在MFA页输入连续的两组MFA Code，然后点击**确定启用**来完成绑定
 
