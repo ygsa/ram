@@ -10,7 +10,7 @@
 
 您需要在智能手机终端上安装虚拟 MFA 应用程序以完成下述操作，推荐您使用阿里云 App。
 
-此外，常用的 MFA 应用程序还有 Google Authenticator，您可以自主选择安装使用。关于 Google Authenticator 安装问题，请参考[安卓版Google Authenticator安装及使用指导](../cn.zh-CN/用户指南/Google Authenticator 安装及使用指导/安卓版Google Authenticator安装及使用指导.md)。
+此外，常用的 MFA 应用程序还有 Google Authenticator，您可以自主选择安装使用。关于 Google Authenticator 安装问题，请参考[安卓版Google Authenticator安装及使用指导](../../../../intl.zh-CN/用户指南/Google Authenticator 安装及使用指导/安卓版Google Authenticator安装及使用指导.md)。
 
 下文以 阿里云 App 为例来描述操作步骤，使用其他 MFA 应用程序的步骤与此类似。
 
