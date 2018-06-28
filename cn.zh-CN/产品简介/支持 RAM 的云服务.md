@@ -197,7 +197,8 @@
 |服务名|控制台|API|授权粒度|系统策略|相关文档|
 |:--|:--|:--|:---|:---|:---|
 |企业级分布式应用服务 EDAS|√|×|服务级别|AliyunEDASFullAccess|[子账号管理](https://help.aliyun.com/document_detail/44023.html)|
-|分布式关系型数据库服务 DRDS|√|×|资源级别| -   AliyunDRDSFullAccess
+|分布式关系型数据库服务 DRDS|√|×|资源级别|
+|kafka|√|√||-   AliyunDRDSFullAccess
 -   AliyunDRDSReadOnlyAccess
 
  |[DRDS支持的资源授权](https://help.aliyun.com/document_detail/51480.html)|
